@@ -1,6 +1,4 @@
 html, body {
-    height: 100vh;
-    overflow: hidden;
     margin: 0;
 }
 ul { 
@@ -36,7 +34,7 @@ input[type='number'] {
 #user-interface-container {
     position: relative;
 }
-#user-interface-container:before {
+#user-interface-container::before {
     content: '';
     display: block;
     position: absolute;
